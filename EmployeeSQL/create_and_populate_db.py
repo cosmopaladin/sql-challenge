@@ -6,7 +6,7 @@ from pathlib import Path
 # Database connection parameters
 DB_NAME = "employees_db"
 DB_USER = "postgres"
-DB_PASSWORD = "postgres"  # Change this to your actual password
+DB_PASSWORD = "bmws4"  # Change this to your actual password
 DB_HOST = "localhost"
 DB_PORT = "5432"
 

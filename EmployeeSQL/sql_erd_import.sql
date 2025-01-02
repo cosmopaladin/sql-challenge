@@ -1,9 +1,4 @@
-﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
--- Link to schema: https://app.quickdatabasediagrams.com/#/d/rNj292
--- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
-
-
-CREATE TABLE "employees" (
+﻿CREATE TABLE "employees" (
     "emp_no" int   NOT NULL,
     "emp_title_id" varchar   NOT NULL,
     "birth_date" date   NOT NULL,

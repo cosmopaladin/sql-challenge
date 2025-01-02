@@ -4,7 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
 
 # Create database connection
-engine = create_engine('postgresql://postgres:postgres@localhost:5432/employees_db')
+engine = create_engine('postgresql://postgres:bmws4@localhost:5432/employees_db')
 Base = declarative_base()
 
 # Define the tables
